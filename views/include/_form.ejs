@@ -1,0 +1,48 @@
+<!--Form handling-->
+
+<form method="POST" id="add_user">
+    <div class="new_user">
+        <div class="form-group">
+            <lable for="name" class="text-dark">Name</lable>
+            <input type="hidden" name="id" value="">
+            <input type="text" name="name" value ="" placeholder="bhumi singh">
+        </div>
+        <div class="form-group">
+            <lable for="email" class="text-dark">Email</lable>
+            <input type="text" name="email" value ="" placeholder="example@gmail.com">
+        </div>
+
+        <div class="form-group">
+            <lable for="Gender" class="text-dark">Gender</lable>
+            <div class="radioinline">
+           <input type="radio"name="gender" value="male">
+           <lable for="gender" class="text-light">Male</lable>
+            </div>
+
+            <div class="radioinline">
+                <input type="radio"name="gender" value="Female">
+                <lable for="gender" class="text-light">Female</lable>
+                 </div>
+            
+        </div>
+
+        <div class="form-group">
+            <lable for="Gender" class="text-dark">Status</lable>
+            <div class="radioinline">
+           <input type="radio"name="Status" value="Active">
+           <lable for="gender" class="text-light">Active</lable>
+            </div>
+
+            <div class="radioinline">
+                <input type="radio"name="Status" value="Inactive">
+                <lable for="gender" class="text-light">Inactive</lable>
+                 </div>
+            
+        </div>
+    </div>
+    <div class="form-group">
+        <button type="submit" class="btn text-dark update">Save</button>
+    </div>
+
+</form>
+<!--/Form handling-->
